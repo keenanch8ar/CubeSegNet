@@ -1,0 +1,70 @@
+efficientnet==1.0.0
+ipykernel @ file:///C:/ci/ipykernel_1646982785443/work/dist/ipykernel-6.9.1-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1648817223581/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+keras==2.9.0
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+libclang==14.0.1
+llvmlite==0.38.0
+
+Markdown @ file:///C:/ci/markdown_1614364082838/work
+MarkupSafe @ file:///C:/ci/markupsafe_1621528502553/work
+matplotlib @ file:///C:/ci/matplotlib-suite_1647423638658/work
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1649782970434/work
+numpydoc @ file:///opt/conda/conda-bld/numpydoc_1643788541039/work
+opencv-python==4.6.0.66
+
+pandas @ file:///C:/ci/pandas_1650373458095/work
+pandas-streaming==0.5.0
+
+patchify==0.2.3
+
+pylint @ file:///C:/ci/pylint_1627536884966/work
+pyls-spyder==0.4.0
+
+pytest==7.1.1
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-lsp-black @ file:///tmp/build/80754af9/python-lsp-black_1634232156041/work
+python-lsp-jsonrpc==1.0.0
+python-lsp-server==1.2.4
+python-slugify @ file:///tmp/build/80754af9/python-slugify_1620405669636/work
+python-snappy @ file:///C:/ci/python-snappy_1610133405910/work
+python-version==0.0.2
+pytz==2021.3
+pyviz-comms @ file:///tmp/build/80754af9/pyviz_comms_1623747165329/work
+PyWavelets @ file:///C:/ci/pywavelets_1648728084106/work
+pywin32==302
+pywin32-ctypes @ file:///C:/ci/pywin32-ctypes_1607553594546/work
+pywinpty @ file:///C:/ci_310/pywinpty_1644230983541/work/target/wheels/pywinpty-2.0.2-cp39-none-win_amd64.whl
+PyYAML==6.0
+
+Rtree @ file:///C:/ci/rtree_1618421015405/work
+ruamel-yaml-conda @ file:///C:/ci/ruamel_yaml_1616016898638/work
+s3transfer @ file:///tmp/build/80754af9/s3transfer_1626435152308/work
+scikit-image @ file:///C:/ci/scikit-image_1648214340990/work
+scikit-learn @ file:///C:/ci/scikit-learn_1642617276183/work
+scikit-learn-intelex==2021.20220215.102710
+scipy @ file:///C:/ci/scipy_1641555170412/work
+Scrapy @ file:///C:/ci/scrapy_1646837986255/work
+seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
+segmentation-models==1.0.1
+
+
+
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow-datasets==4.6.0
+tensorflow-estimator==2.9.0
+tensorflow-examples===ca5a4fbbc7df097ec3110fe4c1f51e77897819f8-
+tensorflow-gpu==2.9.1
+tensorflow-hub==0.12.0
+tensorflow-io-gcs-filesystem==0.26.0
+tensorflow-metadata==1.9.0
+types-Pillow==10.1.0.2
+types-requests==2.31.0.6
+types-urllib3==1.26.25.14
+typing_extensions==4.9.0
+utils==1.0.1

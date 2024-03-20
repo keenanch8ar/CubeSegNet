@@ -6,7 +6,7 @@ import tensorflow as tf
 import keras
 import datetime
 
-from utils.my_utils import merge_classes, show_mask_with_label, show_examples,trainGenerator
+from utils.my_utils import trainGenerator
 
 labels = ['unclassified', 'vegetation', 'no vegetation', 'water', 'cloud']
 
@@ -28,6 +28,15 @@ models = {
 # Create a formatted table for the help section
 table = '\n'.join(f"{group}:\t{', '.join(models[group])}" for group in models)
 
+# Get the current working directory
+current_dir = os.getcwd()
+
+# Construct the paths relative to the current working directory
+train_img_path = os.path.join(current_dir, "CubeSegNet_Dataset", "train", "images")
+train_mask_path = os.path.join(current_dir, "CubeSegNet_Dataset", "train", "masks")
+test_img_path = os.path.join(current_dir, "CubeSegNet_Dataset", "test", "images")
+test_mask_path = os.path.join(current_dir, "CubeSegNet_Dataset", "test", "masks")
+
 
 def main(args):
     BACKBONE = args.backbone
@@ -37,12 +46,7 @@ def main(args):
     RAW_N_CLASSES = 16
     N_CLASSES = 5
     
-    train_img_path = "C:/Users/keena/Downloads/CubeNet_dataset/new/train/images/"
-    train_mask_path = "C:/Users/keena/Downloads/CubeNet_dataset/new/train/masks/"
     train_img_gen = trainGenerator(train_img_path, train_mask_path, num_class=N_CLASSES, backbone=BACKBONE,seed=SEED, batchsize=BATCH_SIZE, size=(64, 64))
-
-    test_img_path = "C:/Users/keena/Downloads/CubeNet_dataset/new/test/images/"
-    test_mask_path = "C:/Users/keena/Downloads/CubeNet_dataset/new/test/masks/"
     test_img_gen = trainGenerator(test_img_path, test_mask_path, num_class=N_CLASSES, backbone=BACKBONE,seed=SEED, batchsize=BATCH_SIZE, size=(64, 64))
 
     x, y = test_img_gen.__next__() 

@@ -12,9 +12,13 @@ from utils.my_utils import show_mask_with_label
 # Define class labels
 labels = ['unclassified', 'vegetation', 'no vegetation', 'water', 'cloud']
 
-# Validation Dataset
-val_img_dir = "C:/Users/keena/Downloads/CubeNet_dataset/validation/images/val/"
-val_mask_dir = "C:/Users/keena/Downloads/CubeNet_dataset/validation/masks/val/"
+# Get the current working directory
+current_dir = os.getcwd()
+
+# Construct the paths relative to the current working directory
+val_img_dir = os.path.join(current_dir, "CubeSegNet_Dataset", "validation", "images", "val")
+val_mask_dir = os.path.join(current_dir, "CubeSegNet_Dataset", "validation", "masks", "val")
+
 
 # Define the priorities for each class
 class_priorities = {

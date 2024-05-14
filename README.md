@@ -1,5 +1,5 @@
 # Onboard Data Prioritization Using Multi-Class Image Segmentation for Nanosatellites
-[![GitHub](https://img.shields.io/github/license/keenanch8ar/CubeSegNet)](https://github.com/keenanch8ar/CubeSegNet/LICENSE) [![DOI](https://img.shields.io/badge/DOI-10.3390/rs16101729-blue)](https://doi.org/10.3390/rs16101729)
+[![GitHub](https://img.shields.io/github/license/keenanch8ar/CubeSegNet)](https://github.com/keenanch8ar/CubeSegNet/blob/main/LICENSE) [![DOI](https://img.shields.io/badge/DOI-10.3390/rs16101729-blue)](https://doi.org/10.3390/rs16101729)
 
 ![Graphical Abstract](https://i.imgur.com/DJVgCoK.png)
 

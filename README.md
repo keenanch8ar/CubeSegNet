@@ -1,3 +1,6 @@
+# Onboard Data Prioritization Using Multi-Class Image Segmentation for Nanosatellites
+[![GitHub](https://img.shields.io/github/license/keenanch8ar/CubeSegNet)](https://github.com/keenanch8ar/CubeSegNet/LICENSE) [![DOI](https://img.shields.io/badge/DOI-10.3390/rs16101729-blue)](https://doi.org/10.3390/rs16101729)
+
 ![Graphical Abstract](https://i.imgur.com/DJVgCoK.png)
 
 # Abstract
@@ -38,7 +41,3 @@ python train.py --architecture Unet --backbone efficientnetb0 --epochs 30
  ```bash
 python test.py --model_dir saved_models/Unet_efficientnetb0_20_03_24/my_seg_model
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
